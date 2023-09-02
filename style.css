@@ -1,0 +1,24 @@
+.blink_me {
+    font-family: monospace;
+    font-size:50px;
+    animation: color-change 0.5s infinite;
+    text-align: center;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: greenyellow; }
+    
+  }
+body {
+  background-image: url('//i.ytimg.com/vi/HLairL5Q86Y/maxresdefault.jpg');
+  margin: auto;
+}
+h2 {
+    animation: color-change 0.5s infinite;
+    text-align: center;
+}
+a {
+    animation: color-change 0.5s infinite;
+}
